@@ -150,24 +150,24 @@
         margin: 20px;
         font-weight: 100;
         font-size: 40px;
-        font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+        font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial;
         background: linear-gradient(135deg, #11a6c7, #a855f7);
       }
-      .contact{
+      .contact {
         display: flex;
         justify-content: center;
         align-items: center;
         display: grid;
         grid-template-areas: "abc";
         row-gap: 10px;
-        
       }
-      .lik{
+      .lik {
         grid-area: "abc";
         text-decoration: none;
         height: 40px;
         width: 350px;
-        border: 1px solid ;
+        border: 1px solid;
         border: none;
         text-align: center;
         border-radius: 10px;
@@ -178,7 +178,7 @@
         );
         color: #9b9da2;
       }
-      .open{
+      .open {
         height: 30px;
         width: 115px;
         border: 1px solid rgba(255, 255, 255, 0.03);
@@ -192,190 +192,216 @@
         color: white;
         font-weight: bold;
         text-align: center;
-        padding: 5px ;
+        padding: 5px;
         font-weight: 800;
-      font-size: 16px;font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
-;
+        font-size: 16px;
+        font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial;
         margin-top: 10px;
         margin-left: 25px;
         /* padding: 8px 20px; */
         /* width: fit-content; */
       }
-      p{
+      p {
         margin-left: -160px;
         margin-top: 40px;
-         color: #9b9da2;
+        color: #9b9da2;
       }
-      nav li{
+      nav li {
         border: 2px solid black;
         padding: 10px;
         border: none;
-        background: linear-gradient(to right, #6C63FF,#5A8DEE);
-        border-radius:18px;
+        background: linear-gradient(to right, #6c63ff, #5a8dee);
+        border-radius: 18px;
       }
-      nav li:hover{
-        box-shadow:0px 0px 10px rgb(64, 61, 61);
+      nav li:hover {
+        box-shadow: 0px 0px 10px rgb(64, 61, 61);
         transform: scale(1.05);
         transition: 1s;
       }
-      .about:hover{
+      .about:hover {
         box-shadow: 0px 1px 20px 10px#0d1322;
         transition: 2s;
         transform: scale(1.01);
       }
-      .links:hover{
+      .links:hover {
         box-shadow: 0px 1px 20px 10px#0d1322;
         transition: 2s;
         transform: scale(1.01);
+      }
+      img {
+        width: 100px;
+        height: 100px;
+        border-radius: 80px;
+        box-shadow: 0px 0px 10px rgba(23, 36, 66, 0.138);
       }
     </style>
   </head>
   <body>
-   <div class="whole">
-     <div class="container">
-      <div class="brand">
-        <div class="box">VS</div>
-        <div style="font-weight: 800; font-size: 20px; margin-top: -22px; font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
- color: aliceblue">Vishwa Portofolia</div>
-        <p>Frontend  Practice</p>
+    <div class="whole">
+      <div class="container">
+        <div class="brand">
+          <div class="box"><img src="image copy 2.png" alt="" /></div>
+          <div
+            style="
+              font-weight: 800;
+              font-size: 20px;
+              margin-top: -22px;
+              margin-left: 10px;
+              font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto,
+                'Helvetica Neue', Arial;
+              color: aliceblue;
+            "
+          >
+            Vishwa Portofolia
+          </div>
+          <p>Frontend Practice</p>
+        </div>
+        <nav class="navbar">
+          <ul>
+            <li>
+              <a href="#home" style="color: #cbd5e1; text-decoration: none"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a href="#projects" style="color: #cbd5e1; text-decoration: none"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a href="#contacts" style="color: #cbd5e1; text-decoration: none"
+                >contancts</a
+              >
+            </li>
+          </ul>
+        </nav>
       </div>
-      <nav class="navbar">
-        <ul>
-          <li>
-            <a href="#home" style="color: #cbd5e1; text-decoration: none"
-              >Home</a
-            >
-          </li>
-          <li>
-            <a href="#projects" style="color: #cbd5e1; text-decoration: none"
-              >Projects</a
-            >
-          </li>
-          <li>
-            <a href="#contacts" style="color: #cbd5e1; text-decoration: none"
-              >contancts</a
-            >
-          </li>
-        </ul>
-      </nav>
-    </div>
-    <div class="about">
-      <h1
-        style="
-          color: white;
-          font-weight: bold;
-          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
-            sans-serif;
-        "
-      >
-        Design a modern portfolio landing
-      </h1>
-      <h5
-        style="
-          color: rgb(137, 135, 135);
-          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
-            sans-serif;
-          font-size: 17px;
-        "
-      >
-        Build a responsive single-page interface showing your hero, projects
-        grid, and contact card. Use this starter to practice layout, spacing,
-        and responsive rules.
-      </h5>
-      <input
-        style="padding: 1px 20px"
-        type="text"
-        name="search"
-        id="sea"
-        placeholder="Search  e.g 'UI clone'"
-      />
-      <button>Search</button>
-      <div class="grid">
-        <div class="card">
-          <h1 class="font" style="font-size: 18px">Responsive Blog Layout</h1>
-          <h5 style="margin-left: 4px; color: #6d6e70; margin-top: -1px">
-            A minimal blog homepage with cards and reading view. HTML CSS
-            Responsive
-          </h5>
-          <div class="sk">
-            <div class="skils">Html</div>
-            <div class="skils">Css</div>
-            <div class="skils s1">responsive</div>
+      <div class="about">
+        <h1
+          style="
+            color: white;
+            font-weight: bold;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+              sans-serif;
+          "
+        >
+          Design a modern portfolio landing
+        </h1>
+        <h5
+          style="
+            color: rgb(137, 135, 135);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+              sans-serif;
+            font-size: 17px;
+          "
+        >
+          Build a responsive single-page interface showing your hero, projects
+          grid, and contact card. Use this starter to practice layout, spacing,
+          and responsive rules.
+        </h5>
+        <input
+          style="padding: 1px 20px"
+          type="text"
+          name="search"
+          id="sea"
+          placeholder="Search  e.g 'UI clone'"
+        />
+        <button>Search</button>
+        <div class="grid">
+          <div class="card">
+            <h1 class="font" style="font-size: 18px">Responsive Blog Layout</h1>
+            <h5 style="margin-left: 4px; color: #6d6e70; margin-top: -1px">
+              A minimal blog homepage with cards and reading view. HTML CSS
+              Responsive
+            </h5>
+            <div class="sk">
+              <div class="skils">Html</div>
+              <div class="skils">Css</div>
+              <div class="skils s1">responsive</div>
+            </div>
           </div>
-        </div>
-        <div class="card">
-          <h1 class="font" style="font-size: 18px">
-            Interactive Pricing Cards
-          </h1>
-          <h5 style="margin-left: 4px; color: #6d6e70; margin-top: -1px">
-            Toggle monthly/yearly styles and highlight selected.
-          </h5>
-          <div class="sk">
-            <div class="skils">UI</div>
-            <div class="skils" style="width: 90px">Animation</div>
+          <div class="card">
+            <h1 class="font" style="font-size: 18px">
+              Interactive Pricing Cards
+            </h1>
+            <h5 style="margin-left: 4px; color: #6d6e70; margin-top: -1px">
+              Toggle monthly/yearly styles and highlight selected.
+            </h5>
+            <div class="sk">
+              <div class="skils">UI</div>
+              <div class="skils" style="width: 90px">Animation</div>
+            </div>
           </div>
-        </div>
-        <div class="card">
-          <h1 class="font" style="font-size: 18px">Wheather UI</h1>
-          <h5 style="margin-left: 4px; color: #6d6e70; margin-top: -1px">
-            A clean widget-style weather dashboard.
-          </h5>
-          <div class="sk">
-            <div class="skils">Grid</div>
-            <div class="skils">Css</div>
+          <div class="card">
+            <h1 class="font" style="font-size: 18px">Wheather UI</h1>
+            <h5 style="margin-left: 4px; color: #6d6e70; margin-top: -1px">
+              A clean widget-style weather dashboard.
+            </h5>
+            <div class="sk">
+              <div class="skils">Grid</div>
+              <div class="skils">Css</div>
+            </div>
           </div>
-        </div>
-        <div class="card">
-          <h1 class="font" style="font-size: 18px">Photo Gallery</h1>
-          <h5 style="margin-left: 4px; color: #6d6e70; margin-top: -1px">
-            Masonry-like gallery using CSS columns.
-          </h5>
-          <div class="sk">
-            <div class="skils">layout</div>
-            <div class="skils">images</div>
+          <div class="card">
+            <h1 class="font" style="font-size: 18px">Photo Gallery</h1>
+            <h5 style="margin-left: 4px; color: #6d6e70; margin-top: -1px">
+              Masonry-like gallery using CSS columns.
+            </h5>
+            <div class="sk">
+              <div class="skils">layout</div>
+              <div class="skils">images</div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="links">
-      <div class="box bo1">VK</div>
-      <h1
-        style="
-          position: absolute;
-          left: 137px;
-          font-weight: 800;
-          color: white;
-          margin-top: -105px;
-          font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto,
-            'Helvetica Neue', Arial;
-        "
-      >
-        Vishwanath
-      </h1>
-      <h5
-        style="
-          position: absolute;
-          left: 137px;
-          font-size: 13px;
-          font-weight: 600;
-          color: rgb(149, 145, 145);
-          margin-top: -56px;
-          font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto,
-            'Helvetica Neue', Arial;
-        "
-      >
-        Frontend UI Practice
-      </h5>
-      <div class="contact">
-        <a class="lik" href="href#">✉️ Email</a>
-        <a class="lik" href="https://www.linkedin.com/">💼 Linkdin</a>
-        <a class="lik" href="href#">📁 Resume</a>
+      <div class="links">
+        <div class="box bo1">VK</div>
+        <h1
+          style="
+            position: absolute;
+            left: 137px;
+            font-weight: 800;
+            color: white;
+            margin-top: -105px;
+            font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto,
+              'Helvetica Neue', Arial;
+          "
+        >
+          Vishwanath
+        </h1>
+        <h5
+          style="
+            position: absolute;
+            left: 137px;
+            font-size: 13px;
+            font-weight: 600;
+            color: rgb(149, 145, 145);
+            margin-top: -56px;
+            font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto,
+              'Helvetica Neue', Arial;
+          "
+        >
+          Frontend UI Practice
+        </h5>
+        <div class="contact">
+          <a class="lik" href="href#">✉️ Email</a>
+          <a class="lik" href="https://www.linkedin.com/">💼 Linkdin</a>
+          <a class="lik" href="href#">📁 Resume</a>
+        </div>
+        <div class="open">Open to work</div>
+        <h4
+          style="
+            margin-top: -30px;
+            margin-left: 160px;
+            color: #9c9ea0;
+            font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto,
+              'Helvetica Neue', Arial;
+          "
+        >
+          - 3 Projects
+        </h4>
       </div>
-      <div class="open">Open to work</div>
-      <h4 style="margin-top: -30px; margin-left: 160px; color: #9c9ea0;     font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
-"> - 3 Projects</h4>
     </div>
-   </div>
   </body>
 </html>
-
